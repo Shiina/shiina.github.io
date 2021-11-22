@@ -1,0 +1,36 @@
+/*#main_name {
+    position: relative;
+    top: 47%;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    color: #1a3c3e;
+    font-size: 100px;
+}*/
+
+#main_name {
+    font-family: 'Kanit', sans-serif;
+    color: #1a3c3e;
+    font-size: 100px;
+}
+
+body {
+    background-color: #102425;
+}
+
+.main_name_div {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+::selection {
+    color: rgb(0, 197, 148);
+    background: rgb(33, 83, 73);
+}
