@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Press Start 2P', 'Press Start 2P';
+    src: url("/assets/fonts/PressStart2P-vaV7.ttf") format("truetype");
+}
+
+#bottom_imprint {
+    position: fixed;
+    bottom: 2%;
+    width: 100%;
+}
+
+#flex_imprint {
+    display: flex;
+    justify-content: center;
+}
+
+#anchor_text {
+    font-size: 135%;
+    font-family: 'Kanit', sans-serif;
+    color: #4a8880;
+    text-shadow: 2px 2px 8px #000000;
+    text-decoration: none;
+}
+
+::selection {
+    color: rgb(0, 197, 148);
+    background: rgb(33, 83, 73);
+}
+
+#text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 350%;
+    color: #72cfc3;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+body {
+    background-color: black;
+    font-family: 'Press Start 2P', 'Press Start 2P';
+}
